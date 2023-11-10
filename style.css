@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Noto Serif Old Uyghur", serif;
+  position: relative;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 2rem 0rem 0.5rem 0rem;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+p {
+  margin: 0rem 0rem 1.5rem 0rem;
+}
+
+p + button {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  background-color: #44abf6;
+  margin: 0.5rem;
+  padding: 0.1rem 0.35rem 0.1rem 0.35rem;
+  border: 12px solid transparent;
+  border-radius: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#preto {
+  text-transform: uppercase;
+  background-color: #000;
+}
+
+footer {
+  background-color: #030308;
+  color: #fff;
+  font-family: "Lora", serif;
+  margin-top: 3.5rem;
+  padding: 1rem;
+  text-align: center;
+}
